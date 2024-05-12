@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { ADD_TASK, GETALL_TASK, REMOVE_TASK, TOGGLE_TASK, UPDATE_TASK } from './type';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://mern-tasktracker-kyxy.onrender.com';
 
 export const addTask = (data) => async (dispatch) => {
     try {
